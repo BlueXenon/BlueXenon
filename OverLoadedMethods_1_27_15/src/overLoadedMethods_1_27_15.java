@@ -92,6 +92,7 @@ public class overLoadedMethods_1_27_15 {
 		return mean;
 	}
 	
+	//create a Mean method for the double array
 	
 	// TODO: overload mean so it works with an array of doubles
 	
