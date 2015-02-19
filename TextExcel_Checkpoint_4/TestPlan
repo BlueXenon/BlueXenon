@@ -1,0 +1,131 @@
+TextExcel Test Plan (revised)
+
+Here is what commands I used to test my TextExcel Program.  For the sake of space, I will not be including the results of the commands.
+
+b2 = 25.5
+
+h6 = 5 * 2 + 3 / 1.5 + B2 - 56
+
+cellh6
+
+b2 = 1
+
+b3 = -3.4
+
+b4 = 0
+
+b5 = 0.124
+
+c2 = 256.678543
+
+c3 = 67
+
+c4 = 4.4445
+
+c5 = h6 + 50 * 2 - 3.56 / 6
+
+sortd(b2-c5)
+
+sorta(b2-c5)
+
+c4 = why hello there citizen
+
+sorta(b2-c5)
+
+cellc4
+
+f8 = 12/15/1998
+
+E3 = sum(b2-b5)
+
+E7 = avg(b2-b5)
+
+save /Users/JordanBlue/Desktop/eclipse/testplantest.txt
+
+clearF8
+
+clear
+(inputted "Yes" when prompted by following question)
+
+load /Users/JordanBlue/Desktop/eclipse/testplantest.txt
+(inputted "Yes" when prompted by following question)
+
+cellc4
+
+cellE3
+
+cellE7
+
+cellH6
+
+cellH1
+
+a;ljdkfa;lksdjf;lakjdsf;laeifha;eihfa;lsdkjf
+
+a
+
+a1
+
+cellh9
+
+cellI2
+
+cela1
+
+cella1-
+
+h9 = blah
+
+z3 = 12.5
+
+a1= 12
+
+a1 =12
+
+a1 =     12
+
+a1 = a2 + 1
+
+a1 = 2 +
+
+a1 = 2+
+
+a1 = 5.5 +* 50
+
+a1 = 2 + 5*50
+
+b6 = 52 + 5 +
+
+b6= 52 + 5
+
+g7 = 52 +  + 5
+
+b8 = + 5
+
+b8 + = 5
+
+save/Users/JordanBlue/Desktop/eclipse/testplantest2.txt
+
+load/Users/JordanBlue/Desktop/eclipse/testplantest.txt
+
+load /Users/JordanBlue/Desktop/eclipse/testint123.txt
+
+save load /Users/akbar/Desktop/eclipse/testint123.txt
+
+f1 = sum(a1-A1)
+
+f1 = avg(f3-b2)
+
+f1 = avg(a1-a4)
+
+f2 = sum(a8-d8)
+
+a3 = 12 / 12 / 1456
+
+sortA(a1-b4)
+
+quitn
+
+quit
+
+QuIt

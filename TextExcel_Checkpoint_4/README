@@ -1,0 +1,103 @@
+Welcome to TextExcel!
+
+Before you begin using the program, there are some things that you need to know about the program and how to enter commands.
+This file will run through how the program works, as well as how to correctly enter the available commands.
+
+
+About the program:
+
+TextExcel is a recreation of some of the aspects of the Excel program within a Java program.  At the startup of the program and
+after each command (whether or not the command is executed), and 8x8 spreadsheet will be printed.  The rows are represented by
+the letters A through H, and the columns are represented by numbers 1 through 8.
+
+Basics of TextExcel:
+
+When you need to call for the use of a specific cell, first type the letter of the row of the cell you want to refer to, then type the
+number of the column of the cell you want to refer to.  The letter is not case-sensitive.  Do not put a space between the two characters.
+If you enter any input that spells "quit" (not case sensitive) and includes no other characters, the program will end.  Do not put spaces
+or any excess characters after you enter a command, or you may not get the result you want.
+
+
+Calling cells:
+
+To have the program print a cell's contents, type "cell" (case sensitive) followed by the cell you want to see.  First, the program's normally printed value 
+will be printed, followed by a formula in parenthesees if the cell uses one to determine the final value.  If one or both of the printed pieces
+is nonexistent, nothing will be printed in the spot that the value would normally appear.
+	
+	Here is an example of a cell call:
+	
+		cellA7
+		
+
+Assigning cell values:
+
+	Non-formulaic values/character strings:
+		For this form of assignment, simply type the desired cell, an equals sign, then the desired value.  There must be spaces on each side
+		of the equals sign.  
+			
+			Here is an example, with correct syntax:
+				
+				f5 = hello!
+	
+	Formulaic values:
+		When entering a formula, you may use either real values or calls for other cells.  There must be spaces between each value/operator.
+		None of the values you ask the program to use can contain non-numerical values, or an error message will be printed.  The formula will
+		not follow the order of operations.  The spreadsheet will print the final value; use the cell call command to see the formula.
+			
+			Example with correct syntax:
+				
+				g2 = 5 + A1 * 4 - 3 / 7 + 10
+				
+		Formulas can also be sum or average statements.  In place of the regular formula, use "sum" or "avg", followed by a range of cells 
+		that you want the program to use.  If the first cell does not come before the second cell in the spreadsheet or both cell calls are 
+		the same, an error message will print.  If the range of cells contains any empty cells or cells with character strings, those cells
+		will be counted as a 0 in the calculation process
+		
+			Example with correct syntax:
+			
+				b3 = sum(f2-h4)
+				
+
+Sorting:
+
+	To sort a range of cells, you must type "sort" , followed by either 'a' or 'd' (case sensitive), then a cell range.  If you use 'a', the cells' values will
+	be sorted in ascending order, while if you use 'd', the cells' values will be sorted in descending order.  If one of the cells in the range
+	contains a character string or is empty, unlike the sum and average formulas, this command will return an error message.
+
+		Example with correct syntax:
+		
+			sorta(A1-b4)
+			
+Save/Load:
+
+	By entering "save" or "load"  followed by a file location, you can save your current spreadsheet to that file location or load an existing
+	spreadsheet file (if it is formatted the same as the format of saved files).  There must be a space between the "save" or "load" command
+	and the file location.  If you are using the load command, you will be given a warning about overriding your current spreadsheet with the
+	loaded one.  Typing "yes" (not case sensitive) will carry out the operation.
+	
+		Examples with correct syntax:
+		
+			save /Users/JordanBlue/Desktop/eclipse/learning.txt
+			
+			load /Users/JordanBlue/Desktop/eclipse/learning.txt
+			
+Clearing:
+
+	Clearing cells:
+		
+		By typing "clear" (case sensitive) followed by a cell call, the program will clear any values from that cell (both formulas and 
+		standard values)
+			
+			Example with correct syntax:
+				
+				clearA1
+				
+	Clearing the spreadsheet:
+	
+		Just typing "clear" by itself (case sensitive) will clear the entire spreadsheet of all values.  Like the load command, you will be
+		prompted by a warning before the program carries out the command.
+				
+		
+		
+		
+		   
